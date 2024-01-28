@@ -1,5 +1,3 @@
-## Hi there, i'm G2. Welcome to my page. 👋
-
 ![image](image/g2.png)
 
 Il s'agit d'un projet #2 dans le cadre d'un BOOTCAMP (Développeur WEB) chez Wild Code School.
@@ -8,14 +6,14 @@ Il s'agit d'un projet #2 dans le cadre d'un BOOTCAMP (Développeur WEB) chez Wil
 
 Imaginez une équipe de développeurs avides de code, où coder est devenu notre seconde nature. Eh bien, devinez quoi ? Nous sommes sur le point de faire naître une application React qui va révolutionner votre monde numérique. Attachez vos ceintures !
 
-- Arthur Vincent
-- Nadir Khouani
 - Aleksandra Hamon
+- Nadir Khouani
 - Sylvain Moreau
+- Arthur Vincent-Silvestrini
 
 ## Objectifs
 
-Creer une Application Web pour une chaîne de restorants dans toute la France avec un resto par ville (ex : Paris, Lyon, Bordeaux, etc.). Possibilité de choisir la ville et de commander en click'ncollect et livraison.
+Créer une Application Web pour une chaîne de restaurants dans toute la France avec un restaurant par ville (ex : Paris, Lyon, Bordeaux, etc.). Possibilité de choisir la ville et de commander en click'ncollect et livraison.
 
 ## Maquette
 
@@ -37,11 +35,11 @@ SCRUM
 
 - daily de groupe tous les matins
 - review tous les vendredis (main présenté)
-- rétrospective de groupe tous les vendredis après midi
+- rétrospective de groupe un vendredi sur deux
 - suivi du sprint planning pour préparer le sprint suivant
 
 #### Rôles
 
-- tout le monde est développeur, mais en plus chaque sprint, les rôles tournent
+- tout le monde est développeur mais, à chaque sprint, les rôles tournent :
 - 1 Product Owner : gestion du backlog, présentation du projet
 - 1 Scrum Master : veille au bon respect du Scrum (daily, anime la rétrospective)

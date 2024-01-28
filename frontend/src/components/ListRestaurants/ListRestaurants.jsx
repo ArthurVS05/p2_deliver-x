@@ -1,12 +1,7 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/prop-types */
-/* eslint-disable react/self-closing-comp */
-/* eslint-disable jsx-a11y/label-has-associated-control */
-/* eslint-disable radix */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable react/self-closing-comp */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable import/no-duplicates */
-
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import "./ListRestaurants.css";
 import CestParti from "../Cest-parti/CestParti";
@@ -46,7 +41,8 @@ export default function ListRestaurants({ clickCities, restaurant }) {
       <div className="dropdown">
         <div className="dropdown-header" onClick={toggleDropdown}>
           {selectedItem
-            ? items.find((item) => item.id === parseInt(selectedItem)).nom
+            ? // eslint-disable-next-line radix
+              items.find((item) => item.id === parseInt(selectedItem)).nom
             : "Choisis ton restaurant :"}
           <svg
             width="25px"

@@ -8,8 +8,7 @@ nav {
   background-color: var(--main-color);
   z-index: 100;
 }
-/* z-index positione l'élément au dessus des autres élèments,
-plus le z-index est élevé, plus l'élément ciblé se place au dessus des autres */
+
 .blockLogo {
   z-index: 100;
   padding-left: 1rem;
@@ -25,8 +24,7 @@ nav > div > a > img {
   width: 60px;
   z-index: 100;
 }
-/* pseudo classe nth-of-type(), permet de cibler précisement un élément de même type (par exemple la deuxième div contenu
-dans la barre de navigation <nav> */
+
 nav > div:nth-of-type(2) {
   z-index: 100;
   padding-right: 0.5rem;
@@ -112,6 +110,7 @@ nav > ul > li > img {
     padding: 0.3rem 1.5rem 0.3rem 1.5rem;
   }
 }
+
 /* large */
 @media screen and (min-width: 850px) {
   nav {

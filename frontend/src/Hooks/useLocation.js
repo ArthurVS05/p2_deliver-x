@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 import { useEffect, useState } from "react";
 
 export const useGeoLocation = () => {
@@ -7,6 +8,7 @@ export const useGeoLocation = () => {
     accepted: false,
   });
 
+  // eslint-disable-next-line no-shadow
   const onSuccess = (location) => {
     console.info("onSuccess", location.coords.latitude);
 

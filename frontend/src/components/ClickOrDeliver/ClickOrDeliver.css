@@ -1,8 +1,29 @@
-.btnClickDeliver {
+.btn-unclick {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--second-color);
+  color: var(--light-color);
+  font-size: 1rem;
+  border-radius: 12px;
+  border: 0px;
+  padding: 5px 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.button-width {
+  min-width: 180px;
+  flex: 1;
+}
+
+.click-deliver {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
-  max-width: 42ch;
+  max-width: 27rem;
 }
 
 .clickCollect-selected,
@@ -16,23 +37,18 @@
   height: 30px;
   flex: 1;
 }
-.btn-cod:hover {
+.btn-unclick:hover {
   background-color: var(--second-light);
   color: var(--second-color);
 }
 
-.btn-cod:active,
+.btn-unclick:active,
 .deliver-selected:active,
 .clickCollect-selected:active {
   outline: 1px solid var(--second-light);
   outline-offset: 5px;
 }
 
-.button-width {
-  min-width: 180px;
-  flex: 1;
-}
-
-.deliverH2 {
+.h2.deliver {
   padding: 2rem 0 0.5rem 0;
 }

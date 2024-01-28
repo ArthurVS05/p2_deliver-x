@@ -1,4 +1,4 @@
-.containerLetsGo {
+.container-lets-go {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -6,7 +6,7 @@
   margin-top: 1rem;
 }
 
-.btnLetsGo {
+.btn-lets-go {
   display: flex;
   align-items: center;
   background-color: var(--tertiary-color);
@@ -20,19 +20,19 @@
   flex-shrink: 0;
 }
 
-.btnLetsGo:active {
+.btn-lets-go:active {
   background-color: var(--tertiary-light);
   outline: 1px solid var(--tertiary-light);
   outline-offset: 5px;
   color: var(--tertiary-color);
 }
 
-.hideBtnLetsGo {
+.hide-btn-lets-go {
   display: none;
 }
 
 @media (max-width: 430px) {
-  .containerLetsGo {
+  .container-lets-go {
     width: 100%;
   }
 }

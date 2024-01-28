@@ -38,14 +38,14 @@ export default function ClickOrDeliver({ restaurant }) {
 
   return (
     <>
-      <h2 className="deliverH2">Tu es plutôt...</h2>
-      <section className="btnClickDeliver">
+      <h2 className="deliver">Tu es plutôt...</h2>
+      <section className="click-deliver">
         <button
           type="button"
           className={
             clickCollect
               ? "clickCollect-selected button-width"
-              : "btn-cod button-width"
+              : "btn-unclick button-width"
           }
           onClick={handleClickCollect}
         >
@@ -54,7 +54,9 @@ export default function ClickOrDeliver({ restaurant }) {
         <button
           type="button"
           className={
-            deliver ? "deliver-selected button-width" : "btn-cod button-width"
+            deliver
+              ? "deliver-selected button-width"
+              : "btn-unclick button-width"
           }
           onClick={handleDeliver}
         >

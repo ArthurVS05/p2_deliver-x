@@ -21,7 +21,7 @@ export default function ClickCollect({ restaurant, clickCollect }) {
   };
 
   return (
-    <div className={clickCollect ? "showCities" : "hideCities"}>
+    <div className={clickCollect ? "show-cities" : "hide-cities"}>
       <h3 className="title-where">Tu veux manger où ?</h3>
 
       <div className="cities">

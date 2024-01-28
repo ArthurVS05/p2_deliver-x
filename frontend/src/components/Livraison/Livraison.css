@@ -1,8 +1,8 @@
-.hideLivraison {
+.hide-livraison {
   display: none;
 }
 
-.showLivraison {
+.show-livraison {
   display: flex;
 }
 
@@ -40,14 +40,9 @@ input::placeholder {
   background-color: var(--tertiary-color) !important;
 }
 
-/* .main-part:hover,
-.secondary-part:hover {
-  color: var(--second-color) !important;
-} */
-
 .geocoder-container {
   display: flex !important;
-  max-width: 42ch !important;
+  max-width: 27rem !important;
   flex-wrap: wrap !important;
 }
 

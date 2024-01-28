@@ -8,11 +8,11 @@ export default function CestParti({ selected }) {
     navigate("/menu");
   };
   return (
-    <div className="containerLetsGo">
+    <div className="container-lets-go">
       <button
         type="button"
         onClick={handleClick}
-        className={selected ? "btnLetsGo" : "hideBtnLetsGo"}
+        className={selected ? "btn-lets-go" : "hide-btn-lets-go"}
       >
         C'est parti !
       </button>

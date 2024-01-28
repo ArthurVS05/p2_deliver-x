@@ -11,7 +11,7 @@
 }
 
 .dropdown {
-  max-width: 42ch;
+  max-width: 27rem;
   border-radius: 10px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   background-color: var(--light-color);

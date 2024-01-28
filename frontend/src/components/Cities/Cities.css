@@ -1,8 +1,8 @@
-.hideCities {
+.hide-cities {
   display: none;
 }
 
-.showCities {
+.show-cities {
   display: block;
 }
 
@@ -14,7 +14,7 @@
 .cities {
   display: flex;
   flex-wrap: wrap;
-  max-width: 42ch;
+  max-width: 27rem;
   gap: 10px;
 }
 
@@ -29,7 +29,7 @@
   font-size: 1rem;
   padding: 5px 30px;
   border: 1px solid transparent;
-  width: fit-content;
+  max-width: 27rem;
 }
 
 .btn-cities-selected {
@@ -53,22 +53,3 @@
   outline: 1px solid var(--lightmain-color);
   outline-offset: 5px;
 }
-
-/* @media (max-width: 430px) {
-  .cities {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .btn-cities {
-    flex-grow: 1;
-    color: var(--light-color);
-    border-radius: 12px;
-    background: #c6c5ff;
-    font-size: 1rem;
-    padding: 5px 30px;
-    margin: 0 10px 10px 0;
-    border: 1px solid transparent;
-    width: fit-content;
-  }
-} */
