@@ -3,13 +3,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 .container-contact * {
   max-width: 65ch;
+  color: var(--dark-color);
 }
 
 .container-contact > section > h2 {
   font-size: 2rem;
+  color: var(--main-color);
 }
 
 .container-contact > section > ul {
@@ -19,6 +22,7 @@
 .container-contact > section > h3 {
   font-size: 1.5rem;
   margin-top: 1rem;
+  color: var(--second-color);
 }
 
 .container-contact > section > p {
