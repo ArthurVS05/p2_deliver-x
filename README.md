@@ -47,5 +47,18 @@ Méthode Agile (SCRUM) organisée en sprints hebdomaires et en daily journaliers
 - 1 Scrum Master : veille au bon respect du Scrum (daily, anime la rétrospective)
 
 
-## Nota bene
+## Installer les packages nécessaires
+
+npm install
+
+### Dépendances de l'API : 
+
+- @geoapify/geocoder-autocomplete
+- @geoapify/react-geocoder-autocomplete
+
+Doc : https://www.npmjs.com/package/@geoapify/geocoder-autocomplete
+
+## Nota Bene
 Ce dossier GitHub est un fork du repo collectif.
+
+![image](frontend/src/assets/icones/apercu-site.png)
