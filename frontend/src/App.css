@@ -49,22 +49,6 @@ main > section > * {
   font-weight: 900;
 }
 
-/* .btn-cod {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--second-color);
-  color: var(--light-color);
-  font-size: 1rem;
-  font-size: 1rem;
-  border-radius: 12px;
-  border: 0px;
-  padding: 5px 30px;
-  min-width: 180px;
-  height: 30px;
-  flex-shrink: 0;
-} */
-
 /*Pour afficher / cacher les composants */
 .hide {
   display: none;

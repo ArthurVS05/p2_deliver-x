@@ -1,6 +1,7 @@
 ![image](image/g2.png)
 
 ## Contexte
+
 Nous sommes en formation à la Wild Code School dans le bootcamp "Développeur Fullstack".
 Il s'agit du projet n°2 réalisé en groupe pour expérimenter un premier projet front-end en ReactJS.
 
@@ -46,12 +47,11 @@ Méthode Agile (SCRUM) organisée en sprints hebdomaires et en daily journaliers
 - 1 Product Owner : gestion du travail à réaliser, préparation du prochain sprint, présentation du projet
 - 1 Scrum Master : veille au bon respect du Scrum (daily, anime la rétrospective)
 
-
 ## Installer les packages nécessaires
 
 npm install
 
-### Dépendances de l'API 
+### Dépendances de l'API
 
 - @geoapify/geocoder-autocomplete
 - @geoapify/react-geocoder-autocomplete
@@ -59,12 +59,13 @@ npm install
 Doc : https://www.npmjs.com/package/@geoapify/geocoder-autocomplete
 
 ## Nota Bene
+
 Ce dossier GitHub est un fork du repo collectif.
 
+## Déploiement de l'application pour aperçu
 
-## Déploiement de l'application pour aperçu 
 - Le projet est déployé sur Vercel ;
-https://p2-deliver-jmdqpv0z8-arthur-vss-projects.vercel.app/
+  https://p2-deliver-jmdqpv0z8-arthur-vss-projects.vercel.app/
 - NB : bug de déploiement : problème d'affichage des images du menu.
 - Le projet s'affiche correctement depuis VSCode avec la commande npm run dev-front.
 

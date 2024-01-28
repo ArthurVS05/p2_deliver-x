@@ -1,0 +1,26 @@
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-contact * {
+  max-width: 65ch;
+}
+
+.container-contact > section > h2 {
+  font-size: 2rem;
+}
+
+.container-contact > section > ul {
+  margin-left: 5rem;
+}
+
+.container-contact > section > h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.container-contact > section > p {
+  font-size: 1.1rem;
+}
