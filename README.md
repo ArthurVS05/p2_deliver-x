@@ -45,3 +45,7 @@ Méthode Agile (SCRUM) organisée en sprints hebdomaires et en daily journaliers
 - tout le monde est développeur mais, à chaque sprint, les rôles tournent :
 - 1 Product Owner : gestion du travail à réaliser, préparation du prochain sprint, présentation du projet
 - 1 Scrum Master : veille au bon respect du Scrum (daily, anime la rétrospective)
+
+
+## Nota bene
+Ce dossier GitHub est un fork du repo collectif.
