@@ -51,7 +51,7 @@ Méthode Agile (SCRUM) organisée en sprints hebdomaires et en daily journaliers
 
 npm install
 
-### Dépendances de l'API : 
+### Dépendances de l'API 
 
 - @geoapify/geocoder-autocomplete
 - @geoapify/react-geocoder-autocomplete
@@ -60,5 +60,11 @@ Doc : https://www.npmjs.com/package/@geoapify/geocoder-autocomplete
 
 ## Nota Bene
 Ce dossier GitHub est un fork du repo collectif.
+
+
+## Déploiement de l'application pour aperçu 
+- Le projet est déployé sur Vercel.
+- NB : bug de déploiement : problème d'affichage des images du menu.
+- Le projet s'affiche correctement depuis VSCode avec la commande npm run dev-front.
 
 ![image](frontend/src/assets/icones/apercu-site.png)
