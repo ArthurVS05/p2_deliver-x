@@ -63,7 +63,8 @@ Ce dossier GitHub est un fork du repo collectif.
 
 
 ## Déploiement de l'application pour aperçu 
-- Le projet est déployé sur Vercel.
+- Le projet est déployé sur Vercel ;
+https://p2-deliver-jmdqpv0z8-arthur-vss-projects.vercel.app/
 - NB : bug de déploiement : problème d'affichage des images du menu.
 - Le projet s'affiche correctement depuis VSCode avec la commande npm run dev-front.
 
