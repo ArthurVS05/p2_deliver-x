@@ -8,6 +8,8 @@ export default function CestParti({ selected }) {
     navigate("/menu");
   };
   return (
+    // si un restaurant a été choisie, affiche le bouton
+    // au click du bouton, navigate vers la page menu
     <div className="container-lets-go">
       <button
         type="button"

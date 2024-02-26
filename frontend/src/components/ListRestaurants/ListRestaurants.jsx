@@ -27,18 +27,29 @@ export default function ListRestaurants({ clickCities, restaurant }) {
 
   // fonction pour valider le choix de user
   const handleItemClick = (id) => {
+    // si je clique sur un restaurant,
     setSelectedItem((prevSelectedItem) =>
+      // si le resto était déjà cliqué,
+      // remets la valeur à null = on revient à "Choisis ton restaurant"
+      // sinon on garde id
       prevSelectedItem === id ? null : id
     );
+    // masque la liste de restaurants
     setOpen(false);
+    // met à jour le state de sélection (true / false)
     setSelected(!selected);
+    // on stocke l'id du restaurant dans le local storage, on passe en string l'id
     localStorage.setItem("idRestaurant", JSON.stringify(id));
   };
 
   return (
+    // Si une ville a été choisi, on rend visible le composant
     <div className={clickCities ? "showResto" : "hideResto"}>
+      {/* On affiche la liste de restaurants dans la ville choisie */}
       <h1 className="listRestoTitle">Nos restaurants à {clickCities} :</h1>
       <div className="dropdown">
+        {/* event OnClick exécutant la fonction toggleDropdown pour afficher / cacher la
+        liste */}
         <div className="dropdown-header" onClick={toggleDropdown}>
           {selectedItem
             ? // eslint-disable-next-line radix
@@ -71,8 +82,10 @@ export default function ListRestaurants({ clickCities, restaurant }) {
             </g>
           </svg>
         </div>
-
+        {/* si liste ouverte, change la classe  */}
         <div className={`dropdown-body ${isOpen && "open"}`}>
+          {/* on filtre les restaurants selon la ville choisie
+           on map pour créer une div par restaurant restant */}
           {items
             .filter((item) => item.ville === clickCities)
             .map((item) => (
@@ -87,6 +100,7 @@ export default function ListRestaurants({ clickCities, restaurant }) {
             ))}
         </div>
       </div>
+      {/* on envoie en props le state selected (true / false) */}
       <CestParti selected={selected} />
     </div>
   );
